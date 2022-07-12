@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact Me</title>
+</head>
+
+<body>
+  <h1>My Contact Details</h1>
+  <p>Sourav Das</p>
+  <!-- <p>sourav304@gmail.com</p>
+  <p>+91-740xxxxxxx</p> -->
+  <form action="mailto:wtf1732@gmail.com" method="post" enctype="text/plain">
+
+    <label for="senderName">Name :
+      <input type="text" name="Sender Name" id="senderName" placeholder="Enter Your Name">
+    </label>
+    <br><br>
+    <label for="senderEmail">Email ID :
+      <input type="email" name="Sender Email" id="senderEmail" placeholder="Enter Your Email ID">
+    </label>
+    <br><br>
+    <label for="senderContactNumber">Contact Number :
+      <input type="text" name="Sender Contact#" id="senderContactNumber" placeholder="Enter Your Contact Number">
+    </label>
+    <br><br>
+    <label for="Subject">Subject :
+      <input type="text" name="Subject" id="Subject" placeholder="Enter Subject">
+    </label>
+    <br><br>
+    <label for="Messege">Message : </label><br>
+    <textarea type="text" name="Messege " id="Messege" rows="10" cols="30" placeholder="Enter your Messege"></textarea>
+    <br><br>
+    <label for="tac">
+      <input id="tac" type="checkbox" name="terms-and-conditions ">
+      I agree to the Terms and Conditions
+    </label>
+    <!-- <p> -->
+      <pre>   <a href="terms-and-conditions.html">Read our Terms and Conditions</a></pre>
+    <!-- </p> -->
+    <br>
+    <input type="submit" class="btn btn-success" id="submitBtn">
+  </form>
+</body>
+
+</html>
